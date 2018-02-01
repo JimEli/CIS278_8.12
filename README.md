@@ -1,5 +1,5 @@
 # Pima CC CIS278 Week #6 Exercise 8.12
-##Simulation: The Tortoise and the Hare
+## Simulation: The Tortoise and the Hare
 ### Exercise 8.12 on page 374-375
 
 In this exercise, you’ll recreate the classic race of the tortoise and the hare. You’ll use random number generation to develop a simulation of this memorable event.
