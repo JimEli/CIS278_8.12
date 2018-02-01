@@ -1,6 +1,6 @@
-# Pima CC CIS278 Week #6 Exercise 8.12 (Simulation: The Tortoise and the Hare)
-
-## Exercise 8.12 on page 374-375
+# Pima CC CIS278 Week #6 Exercise 8.12
+##Simulation: The Tortoise and the Hare
+### Exercise 8.12 on page 374-375
 
 In this exercise, you’ll recreate the classic race of the tortoise and the hare. You’ll use random number generation to develop a simulation of this memorable event.
 
@@ -8,16 +8,16 @@ Our contenders begin the race at "square 1" of 70 squares. Each square represent
 
 There is a clock that ticks once per second. With each tick of the clock, your program should use function moveTortoise and moveHare to adjust the position of the animals according to the rules in Fig. 8-18. These functions should use pointer-based pass-by-reference to modify the position of the tortoise and the hare.
 ```text
-                      Percent
-  Animal   Move type  of time Actual move
-  Tortoise Fast plod  50%     3 squares to the right
-           Slip       20%     6 squares to the left
-           Slow plod  30%     1 square to the right
-  Hare     Sleep      20%     No move at all
-           Big hop    20%     9 squares to the right
-           Big slip   10%     12 squares to the left
-           Small hop  30%     1 square to the right
-           Small slip 20%     2 squares to the left
+                        Percent
+  Animal    Move type   of time  Actual move
+  Tortoise  Fast plod   50%      3 squares to the right
+            Slip        20%      6 squares to the left
+            Slow plod   30%      1 square to the right
+  Hare      Sleep       20%      No move at all
+            Big hop     20%      9 squares to the right
+            Big slip    10%      12 squares to the left
+            Small hop   30%      1 square to the right
+            Small slip  20%      2 squares to the left
 ```
 
 Use variables to keep track of the positions of the animals (i.e., position numbers are 1-70). Start each animal at position 1 (i.e., the "starting gate"). If an animal slips left before square 1, move the animal back to square 1.
